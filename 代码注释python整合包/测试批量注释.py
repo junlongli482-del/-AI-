@@ -25,9 +25,9 @@ def set_output_format(add_txt_extension):
     format_text = "加.txt扩展名" if add_txt_extension else "不加.txt扩展名"
     print(f"设置输出格式: {format_text}")
 
-api_url = "http://erp.miraclink.com:5200/v1/chat-messages"
-upload_url = "http://erp.miraclink.com:5200/v1/files/upload"
-api_key = "app-6cbo3OjMIvCaw9AQGitTZGH7"
+api_url = "http:*************************************"
+upload_url = "http:***********************************"
+api_key = "app-*********************"
 user_id = "abc-123"
 
 # 输出文件夹名称
@@ -364,4 +364,5 @@ def process_files_parallel(max_workers=3):
 # 使用示例
 if __name__ == "__main__":
     # 设置并行工作线程数
+
     process_files_parallel(max_workers=3)
